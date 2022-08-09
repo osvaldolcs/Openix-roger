@@ -89,3 +89,16 @@ img.hero-image {
     top: 13%;
     right: 5%;
 }
+section.cards-section {
+    padding-top: 28px;
+    width: 100%;
+    background-color: var(--blue);
+}
+h2.cards-header {
+    width: 73%;
+    margin-left: 4px;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    color: var(--white);
+    font-weight: var(--Regular);
+}
