@@ -11,6 +11,7 @@
     --green: #50cf20;
     --dark-green: #205809;
     --dark-grey: #444444;
+    --shadows: #00000029;
     --Bold: 700;
     --SemiBold: 600;
     --medium: 500;
@@ -29,6 +30,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
 }
 img.logo {
     width: 100px;
@@ -101,4 +105,64 @@ h2.cards-header {
     line-height: 3rem;
     color: var(--white);
     font-weight: var(--Regular);
+}
+figure.green-line {
+    width: 100px;
+    height: 2px;
+    background-image: url(./assets/Icons/Rectángulo\ 438.svg);
+    margin: 10px 4px;
+}
+div.cards-container {
+    width: 85%;
+    margin: 28px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article.card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+    padding: 20px 0;
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px var(--shadows);
+}
+div.card-info-container {
+    width: 90%;
+    margin: 0 auto;
+}
+img.card-picture {
+    width: 100%;
+}
+h3.card-title {
+    margin-top: 24px;
+    font-size: 2rem;
+    font-weight: var(--Regular);
+    color: var(--white);
+}
+p.card-info {
+    margin-top: 24px;
+    font-size: 1.6rem;
+    font-weight: var(--light);
+    color: var(--white);
+}
+a.card-info-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-top: 24px;
+    font-size: 1.6rem;
+    font-weight: var(--Regular);
+    color: var(--white);
+    text-decoration: none;
+}
+a.card-info-link figure {
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+    background-image: url(./assets/Icons/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
