@@ -94,7 +94,7 @@ img.hero-image {
     right: 5%;
 }
 section.cards-section {
-    padding-top: 28px;
+    padding: 28px 0;
     width: 100%;
     background-color: var(--blue);
 }
@@ -114,7 +114,7 @@ figure.green-line {
 }
 div.cards-container {
     width: 85%;
-    margin: 28px auto;
+    margin: 28px auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
