@@ -128,6 +128,9 @@ article.card {
     border-radius: 10px;
     box-shadow: 4px 4px 6px var(--shadows);
 }
+article.card-3 {
+    display: none;
+}
 div.card-info-container {
     width: 90%;
     margin: 0 auto;
