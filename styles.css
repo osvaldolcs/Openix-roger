@@ -220,3 +220,41 @@ img.appointment-pic1 {
 img.appointment-pic2 {
     display: none;
 }
+section.services {
+    width: 100%;
+    height: auto;
+    background-color: var(--dark-blue);
+    padding: 40px 4px;
+}
+p.services-header {
+    font-size: 2.4rem;
+    font-weight: var(--Regular);
+    color: var(--white);
+}
+figure.line2 {
+    width: 90px;
+    margin: 4px 0px;
+}
+div.services-container {
+    margin: 40px 4px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 250px 250px;
+    gap: 20px;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+span.services-item {
+    width: 250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+p.services-item-text {
+    margin-left: 18px;
+    font-size: 1.8rem;
+    font-weight: var(--Bold);
+    color: var(--white);
+}
