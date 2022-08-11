@@ -83,7 +83,7 @@ a.cta1 {
     text-decoration: none;
     text-align: center;
     padding-top: 15px;
-    border: 1px solid var(--green);
+    border: 2px solid var(--green);
     border-radius: 50px;
     margin: 12px 0px 24px 0px;
 }
@@ -168,4 +168,52 @@ a.card-info-link figure {
     background-image: url(./assets/Icons/arrow-right.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+section.appointment {
+    width: 100%;
+    height: auto;
+    padding: 40px 4px;
+    background-image: url(./assets/pictures/gradient-background.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+div.appointment-info-container {
+    width: 90%;
+}
+h2.appointment-info-title {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: var(--white);
+    font-weight: var(--Regular);
+    margin-bottom: 48px;
+}
+p.appointment-info {
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: var(--light);
+}
+a.cta2 {
+    display: block;
+    width: 220px;
+    height: 50px;
+    font-size: 1.4rem;
+    font-weight: var(--SemiBold);
+    background-color: var(--white);
+    color: var(--dark-grey);
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    border: 2px solid var(--green);
+    border-radius: 50px;
+    margin: 18px 0px 0px 0px;
+}
+img.appointment-pic1 {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+img.appointment-pic2 {
+    display: none;
 }
