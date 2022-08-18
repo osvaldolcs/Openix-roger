@@ -1,0 +1,55 @@
+:root {
+    --blue: #091B31;
+    --dark-blue: #021124;
+    --white: #ffffff;
+    --light-green: #91ef6b;
+    --green: #50cf20;
+    --dark-green: #205809;
+    --dark-grey: #444444;
+    --shadows: #00000029;
+    --Bold: 700;
+    --SemiBold: 600;
+    --medium: 500;
+    --Regular: 400;
+    --light: 300;
+}
+img.logo {
+    width: 150px;
+    height: auto;
+}
+div.navbar-right {
+    display: flex;
+}
+div.options-container {
+    display: block;
+}
+span.menu-icon {
+    display: none;
+}
+nav.navbar {
+    padding: 40px 50px;
+}
+div.options-container {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul.options-list-container {
+    display: flex;
+    gap: 30px;
+}
+a.option-list-item {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: var(--Regular);
+    color: var(--white);
+}
+a.cta1-1 {
+    width: 170px;
+    height: 35px;
+    margin: 0;
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: var(--Bold);
+}
