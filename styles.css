@@ -59,8 +59,9 @@ section.hero {
     position: relative;
 }
 div.info-container {
-    width: 81%;
-    padding: 4px;
+    width: 83%;
+    max-width: 310px;
+    padding: 8px;
 }
 h1.info-title {
     margin-top: 12px;
@@ -103,7 +104,7 @@ section.cards-section {
 }
 h2.cards-header {
     width: 73%;
-    margin-left: 4px;
+    margin-left: 8px;
     font-size: 2.6rem;
     line-height: 3rem;
     color: var(--white);
@@ -113,7 +114,7 @@ figure.green-line {
     width: 100px;
     height: 2px;
     background-image: url(./assets/Icons/Rectángulo\ 438.svg);
-    margin: 10px 4px;
+    margin: 10px 8px;
 }
 div.cards-container {
     width: 85%;
@@ -175,7 +176,7 @@ a.card-info-link figure {
 section.appointment {
     width: 100%;
     height: auto;
-    padding: 40px 4px;
+    padding: 40px 8px;
     background-image: url(./assets/pictures/gradient-background.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -183,6 +184,7 @@ section.appointment {
 }
 div.appointment-info-container {
     width: 90%;
+    max-width: 320px;
 }
 h2.appointment-info-title {
     font-size: 3rem;
@@ -224,7 +226,7 @@ section.services {
     width: 100%;
     height: auto;
     background-color: var(--dark-blue);
-    padding: 40px 4px;
+    padding: 40px 8px;
 }
 p.services-header {
     font-size: 2.4rem;
@@ -261,7 +263,7 @@ p.services-item-text {
 section.articles {
     width: 100%;
     height: auto;
-    padding: 24px 4px;
+    padding: 24px 8px;
     background-color: var(--blue);
 }
 h3.articles-title {
@@ -274,6 +276,7 @@ div.articles-container {
     display: flex;
     overflow: scroll;
     overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 article.article {
     width: 70%;
@@ -336,7 +339,7 @@ figure.gradient-line {
 section.subscription {
     width: 100%;
     background-color: var(--blue);
-    padding: 24px 4px;
+    padding: 24px 8px;
 }
 h3.subscription-title {
     margin-bottom: 12px;
@@ -354,7 +357,8 @@ div.form-input-container {
     align-items: center;
 }
 div.form-input-container input {
-    width: 340px;
+    max-width: 340px;
+    min-width: 300px;
     height: 55px;
     border: none;
     border-radius: 8px;
@@ -371,7 +375,8 @@ p.form-legend {
 button.form-submit-bottom {
     display: block;
     margin: 24px auto;
-    width: 340px;
+    max-width: 340px;
+    min-width: 300px;
     height: 60px;
     font-size: 1.8rem;
     font-weight: var(--Regular);
