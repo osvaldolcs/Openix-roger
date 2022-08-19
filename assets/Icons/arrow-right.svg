@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.921" height="21.826" viewBox="0 0 25.921 21.826">
+  <g id="Grupo_250" data-name="Grupo 250" transform="translate(-481 691.826) rotate(-90)">
+    <g id="Grupo_28" data-name="Grupo 28" transform="translate(672.749 482)">
+      <line id="Línea_19" data-name="Línea 19" y1="23.507" transform="translate(8.106)" fill="none" stroke="#f4f4f4" stroke-linecap="round" stroke-width="2"/>
+      <g id="Grupo_27" data-name="Grupo 27" transform="translate(0 15.207)">
+        <line id="Línea_20" data-name="Línea 20" x2="8.106" y2="8.3" fill="none" stroke="#f4f4f4" stroke-linecap="round" stroke-width="2"/>
+        <line id="Línea_21" data-name="Línea 21" x1="8.106" y2="8.3" transform="translate(8.106)" fill="none" stroke="#f4f4f4" stroke-linecap="round" stroke-width="2"/>
+      </g>
+    </g>
+    <path id="Polígono_4" data-name="Polígono 4" d="M9.5,1.414a2,2,0,0,1,2.828,0L18.412,7.5A2,2,0,0,1,17,10.913H4.828A2,2,0,0,1,3.414,7.5Z" transform="translate(691.826 504.575) rotate(180)" fill="#92ef6c"/>
+  </g>
+</svg>
