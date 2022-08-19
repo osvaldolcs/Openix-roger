@@ -13,6 +13,9 @@
     --Regular: 400;
     --light: 300;
 }
+header {
+    box-shadow: 0px 6px 10px var(--shadows);
+}
 img.logo {
     width: 150px;
     height: auto;
@@ -27,7 +30,7 @@ span.menu-icon {
     display: none;
 }
 nav.navbar {
-    padding: 40px 50px;
+    padding: 36px 60px;
 }
 div.options-container {
     width: 500px;
@@ -52,4 +55,23 @@ a.cta1-1 {
     padding: 8px;
     font-size: 1rem;
     font-weight: var(--Bold);
+}
+section.hero {
+    padding: 35px 65px;
+}
+div.info-container {
+    max-width: 415px;
+    padding: 0;
+}
+p.info {
+    margin-top: 40px;
+    font-size: 2rem;
+}
+a.cta1 {
+    margin: 40px 0;
+}
+img.hero-image {
+    width: 40%;
+    top: 15%;
+    right: 10%;
 }
