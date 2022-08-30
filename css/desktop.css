@@ -75,3 +75,22 @@ img.hero-image {
     top: 15%;
     right: 10%;
 }
+section.cards-section {
+    padding: 57px;
+}
+h2.cards-header {
+    width: 600px;
+    font-size: 2.4rem;
+}
+div.cards-container {
+    width: 98%;
+    flex-direction: row;
+    gap: 15px;
+}
+article.card {
+    width: 310px;
+    padding: 25px 0;
+}
+article.card-3 {
+    display: block;
+}
