@@ -94,3 +94,28 @@ article.card {
 article.card-3 {
     display: block;
 }
+section.appointment {
+    padding: 65px 65px;
+    height: 90vh;
+}
+div.appointment-info-container {
+    max-width: 420px;
+}
+h2.appointment-info-title {
+    font-size: 2.6rem;
+}
+p.appointment-info {
+    font-size: 2.6rem;
+}
+img.appointment-pic1 {
+    width:  300px;
+    top: 35%;
+    left: 40%;
+}
+img.appointment-pic2 {
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
