@@ -71,11 +71,14 @@ p.info {
     margin-top: 50px;
     font-size: 2.5rem;
 }
-a.cta1 {
+a.cta1, a.cta2 {
     margin: 50px 0;
     width: 280px;
     height: 65px;
     padding-top: 20px;
+}
+a.cta2 {
+    font-size: 2rem;
 }
 img.hero-image {
     width: 35%;
@@ -119,27 +122,27 @@ a.cards-button {
     font-size: 1.8rem;
 }
 section.appointment {
-    padding: 65px 65px;
+    padding: 85px;
     height: 90vh;
 }
 div.appointment-info-container {
-    max-width: 420px;
+    max-width: 480px;
 }
 h2.appointment-info-title {
-    font-size: 2.6rem;
+    line-height: normal;
 }
 p.appointment-info {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
 }
 img.appointment-pic1 {
-    width:  300px;
+    width: 350px;
     top: 35%;
     left: 40%;
 }
 img.appointment-pic2 {
     display: block;
-    width: 200px;
+    width: 250px;
     position: absolute;
-    top: 10%;
-    right: 20%;
+    top: 12%;
+    right: 22%;
 }
