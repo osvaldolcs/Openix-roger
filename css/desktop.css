@@ -248,3 +248,29 @@ div.form-input-container input {
 p.form-legend {
     width: initial;
 }
+section.pre-footer {
+    padding: 85px;
+    position: relative;
+}
+p.pre-footer-title {
+    text-align: center;
+    font-size: 3.2rem;
+}
+p.pre-footer-text {
+    font-size: 3rem;
+    text-align: center;
+}
+a.cta2-1 {
+    margin: 0 auto;
+}
+p.pre-footer-title,
+p.pre-footer-text,
+a.cta2-1 {
+    margin-bottom: 50px;
+}
+img.pre-footer-pic {
+    width: 400px;
+    position: absolute;
+    top: 10px;
+    left: 58%;
+}
