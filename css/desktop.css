@@ -224,3 +224,27 @@ figure.gradient-line {
     height: 3px;
     background-image: linear-gradient(90deg,var(--white) 80%, var(--green) 40%);
 }
+section.subscription {
+    padding: 40px 85px 85px 85px;
+}
+h3.subscription-title {
+    width: 480px;
+}
+div.form-input-container {
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+}
+form.form-container {
+    display: flex;
+    align-items: baseline;
+}
+div.form-input-container input {
+    width: 350px;
+    max-width: 350px;
+    min-width: 300px;
+    height: 55px;
+}
+p.form-legend {
+    width: initial;
+}
