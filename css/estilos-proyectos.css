@@ -68,12 +68,12 @@ a.cta1 {
     margin: 12px 0px 24px 0px;
 }
 section.cards-section {
-    padding: 28px 0;
+    padding: 28px 0 80px 0;
     width: 100%;
     background-color: var(--blue);
 }
 h2.cards-header {
-    width: 73%;
+    width: 80%;
     margin-left: 8px;
     font-size: 2.6rem;
     line-height: 3rem;
@@ -84,7 +84,7 @@ figure.green-line {
     width: 100px;
     height: 2px;
     background-image: url(/assets/Icons/Rectángulo\ 438.svg);
-    margin: 10px 8px;
+    margin: 10px 8px 20px 8px;
 }
 div.cards-container {
     width: 85%;
@@ -102,9 +102,6 @@ article.card {
     border-radius: 10px;
     box-shadow: 4px 4px 6px var(--shadows);
 }
-article.card-3 {
-    display: none;
-}
 div.card-info-container {
     width: 90%;
     margin: 0 auto;
@@ -115,14 +112,14 @@ img.card-picture {
 h3.card-title {
     margin-top: 24px;
     font-size: 2rem;
-    font-weight: var(--Regular);
+    font-weight: var(--Bold);
     color: var(--white);
 }
 p.card-info {
     margin-top: 24px;
     font-size: 1.6rem;
     font-weight: var(--light);
-    color: var(--white);
+    color: #f4f4f4;
 }
 a.card-info-link {
     display: flex;
@@ -142,6 +139,18 @@ a.card-info-link figure {
     background-image: url(/assets/Icons/arrow-right.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+span.categorie {
+    display: inline-block;
+    width: auto;
+    min-width: 65px;
+    font-size: 1.4rem;
+    color: var(--white);
+    text-align: center;
+    padding: 8px 12px;
+    border: 1px solid var(--green);
+    border-radius: 24px;
+    margin: 50px 4px 20px 4px;
 }
 div.content-container {
     display: flex;
