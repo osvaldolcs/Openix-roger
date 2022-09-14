@@ -215,6 +215,9 @@ img.pre-footer-pic {
     width: 200px;
     margin: 0 auto;
 }
+img.pre-footer-pic-2 {
+    display: none;
+}
 footer.footer {
     width: 100%;
     height: auto;

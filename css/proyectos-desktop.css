@@ -134,9 +134,13 @@ section.pre-footer {
     padding: 85px;
     position: relative;
 }
+div.pre-footer-info-container {
+    width: 70%;
+}
 p.pre-footer-title {
     text-align: center;
     font-size: 3.2rem;
+    margin-bottom: 20px;
 }
 p.pre-footer-text {
     font-size: 3rem;
@@ -144,17 +148,23 @@ p.pre-footer-text {
 }
 a.cta2-1 {
     margin: 0 auto;
-}
-p.pre-footer-title,
-p.pre-footer-text,
-a.cta2-1 {
     margin-bottom: 50px;
 }
+p.pre-footer-text {
+    margin-bottom: 90px;
+}
 img.pre-footer-pic {
-    width: 400px;
+    width: 380px;
     position: absolute;
-    top: 10px;
-    left: 58%;
+    top: 80px;
+    left: 40%;
+}
+img.pre-footer-pic-2 {
+    display: block;
+    width: 240px;
+    position: absolute;
+    top: -50px;
+    left: 64%;
 }
 footer.footer {
     padding: 40px 75px 20px 75px;
