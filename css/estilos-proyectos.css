@@ -296,7 +296,8 @@ div.popup-page-container {
 }
 div.popup-page {
     width: 100%;
-    background-color: var(--blue);
+    height: 100vh;
+    background-color: var(--white);
 }
 div.popup-image-container {
     width: 100%;
@@ -325,4 +326,37 @@ a.last-popup-button {
     bottom: 15px;
     left: 10px;
     opacity: 0.5;
+}
+div.popup-info-container {
+    padding: 30px;
+}
+h2.popup-title {
+    font-size: 3rem;
+    font-weight: var(--Bold);
+    margin-bottom: 20px;
+}
+p.popup-text {
+    font-size: 1.8rem;
+    font-weight: var(--light);
+    color: #3E3E3E;
+    margin-bottom: 35px;
+}
+a.close-popup-button {
+    margin: 0 0 0 auto;
+    width: 90px;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+}
+a.close-popup-button span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../assets/Icons/close-icon.svg);
+}
+a.close-popup-button p {
+    font-size: 2rem;
+    color: var(--blue);
+    font-weight: var(--SemiBold);
+    border-bottom: 1px solid #000000;
 }
