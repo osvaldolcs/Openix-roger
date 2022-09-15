@@ -287,3 +287,42 @@ address.email {
 p.footer-text {
     display: none;
 }
+div.popup-page-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+}
+div.popup-page {
+    width: 100%;
+    background-color: var(--blue);
+}
+div.popup-image-container {
+    width: 100%;
+    position: relative;
+}
+img.poppup-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+a.popup-button {
+    display: block;
+    width: 55px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+a.next-popup-button {
+    background-image: url(../assets/Icons/popup-arrow-right.svg);
+    bottom: 15px;
+    right: 15px;
+}
+a.last-popup-button {
+    background-image: url(../assets/Icons/popup-arrow-left.svg);
+    bottom: 15px;
+    left: 10px;
+    opacity: 0.5;
+}
