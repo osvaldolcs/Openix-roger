@@ -98,6 +98,7 @@ a.card-image-link {
     background-color: var(--dark-blue);
     padding: 30px 20px;
     border-radius: 12px;
+    box-shadow: 4px 4px 6px var(--shadows);
 }
 img.card-picture {
     width: 500px;

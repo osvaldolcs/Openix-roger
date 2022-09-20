@@ -292,7 +292,11 @@ div.popup-page-container {
     height: 100%;
     position: fixed;
     z-index: 2;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(9, 27, 49, 0.9);
+    visibility: hidden;
+}
+div.popup-page-container:target {
+    visibility: visible;
 }
 div.popup-page {
     width: 100%;
