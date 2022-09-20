@@ -203,3 +203,21 @@ p.footer-text {
     color: var(--white);
     text-align: center;
 }
+div.popup-page {
+    max-width: 600px;
+    margin: 0 auto;
+}
+img.poppup-img {
+    height: 380px;
+    object-position: 0px -130px;
+}
+div.popup-info-container {
+    padding: 10px 30px;
+}
+p.popup-text {
+    margin-bottom: 25px;
+}
+p.popup-text2 {
+    display: block;
+    margin-left: 25px;
+}

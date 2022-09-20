@@ -333,6 +333,7 @@ div.popup-info-container {
 h2.popup-title {
     font-size: 3rem;
     font-weight: var(--Bold);
+    color: #3E3E3E;
     margin-bottom: 20px;
 }
 p.popup-text {
@@ -340,6 +341,9 @@ p.popup-text {
     font-weight: var(--light);
     color: #3E3E3E;
     margin-bottom: 35px;
+}
+p.popup-text2 {
+    display: none;
 }
 a.close-popup-button {
     margin: 0 0 0 auto;
