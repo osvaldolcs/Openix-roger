@@ -331,6 +331,18 @@ a.last-popup-button {
     left: 10px;
     opacity: 0.5;
 }
+a.next-popup-button2 {
+    background-image: url(../assets/Icons/popup-arrow-right.svg);
+    bottom: 15px;
+    right: 15px;
+    opacity: 0.5;
+}
+a.last-popup-button2 {
+    background-image: url(../assets/Icons/popup-arrow-left.svg);
+    bottom: 15px;
+    left: 10px;
+    opacity: 1;
+}
 div.popup-info-container {
     padding: 30px;
 }
