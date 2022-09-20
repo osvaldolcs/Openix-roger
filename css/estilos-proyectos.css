@@ -48,7 +48,7 @@ span.menu-icon {
     display: block;
     width: 30px;
     height: 30px;
-    background-image: url(/assets/Icons/Menu.svg);
+    background-image: url(../assets/Icons/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -83,7 +83,7 @@ h2.cards-header {
 figure.green-line {
     width: 100px;
     height: 2px;
-    background-image: url(/assets/Icons/Rectángulo\ 438.svg);
+    background-image: url(../assets/Icons/Rectángulo\ 438.svg);
     margin: 10px 8px 20px 8px;
 }
 div.cards-container {
@@ -136,7 +136,7 @@ a.card-info-link figure {
     display: inline-block;
     width: 25px;
     height: 18px;
-    background-image: url(/assets/Icons/arrow-right.svg);
+    background-image: url(../assets/Icons/arrow-right.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -176,7 +176,7 @@ section.pre-footer {
     width: 100%;
     height: auto;
     padding: 24px 8px;
-    background-image: url(/assets/pictures/gradient-background.webp);
+    background-image: url(../assets/pictures/gradient-background.webp);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -259,13 +259,13 @@ figure.social-media-icon {
     background-repeat: no-repeat;
 }
 figure.facebook {
-    background-image: url(/assets/Icons/facebook.svg);
+    background-image: url(../assets/Icons/facebook.svg);
 }
 figure.instagram {
-    background-image: url(/assets/Icons/instagram.svg);
+    background-image: url(../assets/Icons/instagram.svg);
 }
 figure.youtube {
-    background-image: url(/assets/Icons/youtube.svg);
+    background-image: url(../assets/Icons/youtube.svg);
 }
 span.social-media-text {
     display: none;
